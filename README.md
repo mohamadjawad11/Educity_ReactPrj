@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Educity - Modern University Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Educity is a **responsive and interactive university platform** built with React.js. It is designed to showcase the programs, campus life, testimonials, and contact information of a modern educational institution. The platform features a clean and user-friendly interface, making it easy for prospective students and visitors to explore the university's offerings.
 
-## Available Scripts
+## Features
+- **Responsive Navbar**: A sticky navigation bar with smooth scrolling and mobile-friendly menu.
+- **Hero Section**: A captivating banner with a call-to-action button to explore more.
+- **Programs Section**: Highlights the courses and programs offered by the university.
+- **About Section**: Provides detailed information about the university, including a video player for promotional content.
+- **Campus Gallery**: Showcases photos of the university campus and facilities.
+- **Testimonials**: Displays feedback from students with an interactive slider.
+- **Contact Form**: Allows users to send messages directly to the university.
+- **Video Player**: An embedded video player for promotional or informational content.
 
-In the project directory, you can run:
+## Technologies Used
+- **React.js**: For building the user interface and managing state.
+- **React Scroll**: For smooth scrolling to different sections of the page.
+- **CSS**: For styling and responsive design.
+- **Web3Forms**: For handling form submissions in the contact section.
 
-### `npm start`
+## Components Overview
+### 1. Navbar
+- A sticky navigation bar that becomes dark when scrolling.
+- Smooth scrolling to different sections of the page.
+- Mobile-friendly menu with a toggle button.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Hero Section
+- A visually appealing banner with a heading, description, and a call-to-action button.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Programs Section
+- Highlights the courses and programs offered by the university.
 
-### `npm test`
+### 4. About Section
+- Provides detailed information about the university.
+- Includes a video player for promotional content.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5. Campus Gallery
+- Displays photos of the university campus and facilities.
+- Includes a "See More" button for additional content.
 
-### `npm run build`
+### 6. Testimonials
+- Features feedback from students with an interactive slider.
+- Includes navigation buttons to scroll through testimonials.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 7. Contact Form
+- Allows users to send messages directly to the university.
+- Includes contact information (email, phone, and address).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 8. Video Player
+- An embedded video player that can be toggled on and off.
+- Plays promotional or informational content.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
+To run this project locally, follow these steps:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/mohamadjawad11/Educity_ReactPrj.git
